@@ -1,0 +1,11 @@
+<script type="text/javascript">
+
+
+        function reverse_the_string(num) {
+            num = String(num);
+            // str = num.toString;
+            num.split("").reverse().join("");
+            return;
+        }
+        console.log(reverse_the_string(56789));
+    </script>
